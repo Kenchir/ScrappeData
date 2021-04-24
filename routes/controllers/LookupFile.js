@@ -18,7 +18,7 @@ exports.lookupNetworkAndCountry = (req, res) => {
       return { network: each.Network, country: each.Country };
     });
 
-    return res.status(200).json({ status: "success", data: result[0] });
+    return res.status(200).json({ status: "success", data: result });
   } catch (err) {
     return res.status(500).json({ status: "failed", message: "Server Error" });
   }
