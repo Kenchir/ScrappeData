@@ -2,6 +2,17 @@
 
 A project that scrapes a website. Stores the table data into a Json file. A GET rest api that queries the JSON file
 
+## Clone the repo on command line
+
+```sh
+git clone https://github.com/Kenchir/ScrappeData.git
+```
+Change directory to the newly created directory
+
+```sh
+cd ScrappeData
+```
+
 ## Install dependencies
 
 By default, dependencies were installed when this application was generated. Whenever dependencies in `package.json` are changed, run the following command:
